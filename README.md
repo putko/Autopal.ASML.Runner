@@ -15,11 +15,11 @@ Create a VisualStudio solution that contains at least the following projects:
  -- Input: "This IS a STRING"
  -- Output: "GIINRSST"
  ## Solutions
- - SumOfMultiple
+ - SumOfMultiple:
 Complexity for the solution is O(1) since the solution is provided with a mathematical formula. 
 To find the sum of numbers  multiple of d below N, I used this approach:
 Sum of {d, 2d, 3d, ....} = d x {1, 2, 3 , n/d} = d x (n x (n+1)) / 2
-- Sequence Analysis
+- Sequence Analysis:
 Complexity of the solution is O(n) where n equals to number of chars in the input. 
 -- First, Input is splitted into the words. 
 -- Then, Words are trimmed.
